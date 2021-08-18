@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 10% auto auto;
+  grid-template-columns: 20% 50% 30%;
+  grid-template-areas: "nav search search"
+                       "nav box1 box2"
+                       "nav box1 box2";
+  background-color:  #E5E5E5;
+  
+}
+li {
+    list-style: none;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+
+}
+.nav-bar{
+  grid-column-gap: 0;
+   grid-area: nav;
+   vertical-align: middle;
+}
+header {
+    position: relative;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    height: 100vh;
+    background-color: white;
+}
+header .nav-title {
+    padding: 9px 3px 3px 6px;
+    color: blue;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(146, 108, 252);
+}
+.account-block  {
+    /* height: 40px; */
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+}
+.account-block .account-image img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.account-block .account-name {
+    padding-top: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+.account-block .account-name h3 {
+    font-size: 14px;
+    color: #192A3E;
+  
+}
+.account-block .account-name p {
+    font-size: 11px;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+
+nav ul {
+    padding: 0px 10px;
+}
+nav ul i {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+nav ul li {
+    font-weight: 500;
+    color:  #334D6E;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 19px;
+}
+nav ul li a,
+.toggle-sidebar a {
+    text-decoration: none;
+}
+.selected {
+    font-weight: 700;
+    color: #109CF1;
+}
+.toggle-sidebar {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #90A0B7;
+}
+.search-bar {
+   grid-area: search;
+   background-color: white;
+}
+.search-bar-form {
+ font-size: 14px;
+    background-color: white;
+ }
+ .search-form{
+     padding: 10px 40px;
+ }
+ #search {
+     border: none;
+     margin-left: 15px;
+     width: 95%;
+ }
+ input:focus {
+     outline-width: 0;
+ }
+.box-item1 {
+    grid-area: box1;
+    margin: 20px;
+}
+.box-item1 p{
+    display: inline;
+    font-size: 11px;
+    padding: 15px 15px 0;
+}
+
+
+/* first line in box 1 */
+.par1 {
+    float: left;
+}
+.par2 {
+    float: right;
+}
+.par2 span {
+    color: blue;
+    font-weight: 300;
+}
+
+
+/* PERCENT LINE */
+.percent
+{
+    position: relative;
+    width: 95%;
+    height: 3px;
+    background: #EBEFF2;
+    display: block;
+    margin: 5px 15px;
+}
+.percent div
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #2ED47A
+}
+.date h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color:#192A3E;
+    margin: 5px 15px;
+}
+.card-days {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    font-size: 11px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    color: #109CF1;;
+}
+.card-days li {
+    flex: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 1px;
+}
+.list-selected {
+    color: white !important;
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding: 5px;
+}
+.card-date {
+    display: grid;
+    gap: 3px;
+    color: #4C5862;
+    height: 45px;
+    padding-left: 0px;
+    font-size: 13px;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+.card-date li {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.dboard {
+    display: flex;
+    align-items: center;
+}
+.box-item2 {
+   grid-area: box2;
+   margin: 20px;
+}
+.task-boxes .box {
+    height: 126px;
+    width: 95%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    margin: 25px 15px;
+    border-radius: 4px;
+}
+.task-boxes .box {
+    display: block;
+}
+
+.second-list-el {
+    margin-top: 15px;
+    color: #4C5862;
+    opacity: 0.5;
+}
+.second-list-el span {
+    color: black;
+    font-weight: bold;
+}
+.task-boxes .box ul li
+.task-span {
+    color: blueviolet;
+    float: right;
+}
+.paddfix {
+    padding: 0 15px !important;
+}
+.block-box {
+    display: block;
+}
+.box{
+    padding: 15px;
+    
+}
+.img-profile-sm{
+    border-radius: 50%;
+}
+.box ul {
+    padding-left: 0px;
+    
+}
+.box ul li {
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn {
+    background-color: green;
+    padding: 1px;
+    width: auto;
+    font-size: 12px;
+    color: white !important;
+}
+.btn-end {
+    background-color: red;
+}
+@media screen and (max-width: 482px) {
+    * {
+        overflow: visible;
+    }
+    .grid-container {
+     
+        grid-template-areas: "search search search"
+                       "box1 box1 box1"
+                       "box2 box2 box2";
+    }
+    header {
+        visibility: hidden;
+    }
+  .grid-container > div {
+    font-size: 14px;
+  }
+  .box-item1 {
+      height: 100vh;
+      margin: 0;
+  }
+  .search-form {
+      padding: 10px;
+  }
+  #search {
+      width: 87%;
+  }
+}
