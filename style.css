@@ -3,9 +3,7 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-    overflow: hidden;
 }
-
 .grid-container {
   display: grid;
   height: 100vh;
