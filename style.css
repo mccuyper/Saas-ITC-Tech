@@ -384,6 +384,9 @@ nav ul li a,
     .search-form {
         padding: 10px;
     }
+    .search-bar {
+        margin-bottom:30px;
+    }
     #search {
         width: 87%;
     }
