@@ -420,4 +420,7 @@ nav ul li a,
     .box {
         margin: 5px 10px;
     }
+    .box ul li {
+    font-size: 13px;
+	}
 }
