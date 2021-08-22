@@ -23,7 +23,7 @@ li {
   background-color: rgba(255, 255, 255, 0.8);
 }
 .nav-bar{
-  grid-column-gap: 0;
+   grid-column-gap: 0;
    grid-area: nav;
    vertical-align: middle;
 }
@@ -34,14 +34,13 @@ header {
     background-color: white;
 }
 header .nav-title {
-    /* padding: 9px 3px 3px 6px; */
+    padding: 10px 5px 5px;
     color: blue;
     margin-bottom: 10px;
     border-bottom: 1px solid #E5E5E5;
 }
 header .nav-title h2 {
     font-size: 18px;
-    padding: 10px;
 }
 .account-block  {
     /* height: 40px; */
@@ -56,21 +55,20 @@ header .nav-title h2 {
 .account-block .account-name {
     font-weight: 500;
     font-style: normal;
-    padding-top: 4px;
+    padding-top: 5px;
 }
 .settings {
     border-top: 1px solid #E5E5E5;
 }
 .account-block .account-name h3 {
-    font-size: 14px;
+    font-size: 18px;
     color: #192A3E;
     font-weight: 500;
     line-height: 21px;
   
 }
 .account-block .account-name p {
-    
-    font-size: 11px;
+    font-size: 13px;
     line-height: 16px;
     letter-spacing: 0.01em;
 }
@@ -89,7 +87,7 @@ nav ul li {
     color:  #334D6E;
     list-style-type: none;
     padding: 5px 20px;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 19px;
 }
 nav ul li a,
@@ -304,7 +302,7 @@ nav ul li a,
     background-color: white;
 }
 .box ul li {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
 }
 .btn {
