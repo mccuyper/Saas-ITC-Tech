@@ -22,7 +22,7 @@ li {
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
 }
-.nav-bar{
+.nav-bar {
    grid-column-gap: 0;
    grid-area: nav;
    vertical-align: middle;
@@ -230,7 +230,7 @@ nav ul li a,
     box-shadow: 1px 9px 20px 0px rgb(0 0 0 / 25%);
     margin-bottom: 25px;
     border-radius: 4px;
-    height: 47.5%;
+    height: 46.7%;
 }
 
 .dboard {
@@ -249,9 +249,9 @@ nav ul li a,
     margin-top: 30px;
 }
 .top-circle img {
-    height: 240px;
-    width: 230px;
-    margin: 12px 14px 0 -30px;
+    height: 149px;
+    width: 150px;
+    margin: -8px 14px 0 -30px;
 }
 .second-list-el {
     margin-top: 5px;
@@ -265,7 +265,7 @@ nav ul li a,
     opacity: 0.5;
 } 
 .task-boxes {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .task-boxes .box ul li
 .task-span {
@@ -283,14 +283,13 @@ nav ul li a,
     display: block;
 }
 .box {
-    height: 159px;
+    height: 115px;
     width: 95%;
     margin: 5px 15px;
     border-radius: 4px;
     display: block;
     padding: 15px;
     box-shadow: 11px 9px 20px 0px rgb(0 0 0 / 8%);
-    border-radius: 4px;
 }
 .img-profile-sm{
     border-radius: 50%;
@@ -354,7 +353,7 @@ nav ul li a,
     display: flex;
 }
 .circle-text ul {
-    margin: 120px 20px;    
+    margin: 65px 0px;
 }
 .circle-text ul li {
     font-size: 20px;
