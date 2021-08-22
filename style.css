@@ -420,4 +420,7 @@ nav ul li a,
         gap: 13px;
         padding: 0 7px;
     }
+    .box {
+        margin: 5px 10px;
+    }
 }
