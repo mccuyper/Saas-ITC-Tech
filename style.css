@@ -365,8 +365,8 @@ nav ul li a,
 }
 
 @media screen and (max-width: 482px) {
-    * {
-        overflow: visible;
+    body {
+        overflow-x: hidden;
     }
     .grid-container {
      
