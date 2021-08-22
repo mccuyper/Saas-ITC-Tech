@@ -5,9 +5,6 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
-body {
-    overflow-x: hidden;
-}
 .grid-container {
   display: grid;
   height: 100vh;
@@ -368,9 +365,6 @@ nav ul li a,
 }
 
 @media screen and (max-width: 482px) {
-    body {
-        overflow-x: hidden;
-    }
     .grid-container {
      
         grid-template-areas: "search search search"
@@ -399,6 +393,9 @@ nav ul li a,
     .box-item2 {
         width: 100%;
     }
+    .top-box, .bottom-box {
+        height: 52%;
+    }
     .card-date {
         display: flex;
     }
@@ -409,5 +406,15 @@ nav ul li a,
     }
     .circle-text ul {
         margin: 80px 40px;
+    }
+    .grid-container {
+        overflow-x: hidden;
+    }
+    .percent {
+        width: 92%;
+    }
+    .card-date {
+        gap: 13px;
+        padding: 0 7px;
     }
 }
