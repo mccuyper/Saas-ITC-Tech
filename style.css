@@ -377,17 +377,34 @@ nav ul li a,
     header {
         visibility: hidden;
     }
-  .grid-container > div {
-    font-size: 14px;
-  }
-  .box-item1 {
-        height: 100vh;
-        margin: 0;
-  }
-  .search-form {
-      padding: 10px;
-  }
-  #search {
-      width: 87%;
-  }
+    .grid-container > div {
+        font-size: 14px;
+    }
+    .box-item1 {
+            height: 100vh;
+            margin: 0;
+    }
+    .search-form {
+        padding: 10px;
+    }
+    #search {
+        width: 87%;
+    }
+    .box-item1{
+        height: 100%;
+    }
+    .box-item2 {
+        width: 100%;
+    }
+    .card-date {
+        display: flex;
+    }
+    .top-circle img {
+        height: 171px;
+        width: 155px;
+        margin: 20px -30px;
+    }
+    .circle-text ul {
+        margin: 80px 40px;
+    }
 }
