@@ -20,7 +20,7 @@ li {
     list-style: none;
 }
 .li-last-child {
-    margin: 5.5em 1em 0 0;
+    margin: 2em 0 0 0;
 }
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -137,7 +137,7 @@ nav ul li a,
 .box-item1 p, .box-item2 p {
     display: inline;
     font-size: 13px;
-    padding: 15px 15px 0;
+    padding: 5px 10px 0;
     
 }
 .box-item1 a {
@@ -220,10 +220,8 @@ nav ul li a,
     justify-items: center;
 }
 .card-date li {
-    width: 3.5rem;
-    height: 3.5rem;
     display: grid;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     font-weight: bold;
     position: relative;
@@ -231,7 +229,7 @@ nav ul li a,
 .top-box, .bottom-box {
     background-color: #fff;
     box-shadow: 1px 9px 20px 0px rgb(0 0 0 / 25%);
-    margin-bottom: 25px;
+    margin-bottom: 17px;
     border-radius: 4px;
     min-height: 47.7%;
 }
@@ -252,9 +250,9 @@ nav ul li a,
     margin-top: 30px;
 }
 .top-circle img {
-    height: 165px;
-    width: 160px;
-    margin: 4px 14px 0 -30px;
+    height: 200px;
+    width: 197px;
+    margin: 4px 14px;
 }
 .second-list-el {
     margin-top: 5px;
@@ -286,13 +284,13 @@ nav ul li a,
     display: block;
 }
 .box {
-    min-height: 190px;
+    height: 125px;
     width: 95%;
     margin: 5px 15px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 11px 9px 20px 0px rgb(0 0 0 / 8%);
 }
 .img-profile-sm{
@@ -355,14 +353,13 @@ nav ul li a,
 }
 .circle-chart {
     display: flex;
+	align-items: center;
+    justify-content: space-evenly;
 }
-.circle-text ul {
-    margin: 65px 0px;
-}
+
 .circle-text ul li {
-    font-size: 20px;
+    font-size: 15px;
     list-style-type: circle;
-    margin-left: 30px;
 }
 
 @media screen and (max-width: 482px) {
