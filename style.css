@@ -118,6 +118,7 @@ nav ul li a,
     background-color: white;
  }
  .search-form{
+    margin: 4px 0 0;
      padding: 10px;
  }
  #search {
@@ -232,7 +233,7 @@ nav ul li a,
     box-shadow: 1px 9px 20px 0px rgb(0 0 0 / 25%);
     margin-bottom: 17px;
     border-radius: 4px;
-    min-height: 48.2%;
+    min-height: 47.4%;
 }
 
 .dboard {
@@ -369,12 +370,12 @@ nav ul li a,
     list-style-type: circle;
 }
 
-@media screen and (max-width: 482px) {
+@media screen and (max-width: 642px) {
     .grid-container {
-     
-        grid-template-areas: "search search search"
-                       "box1 box1 box1"
-                       "box2 box2 box2";
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     header {
         visibility: hidden;
@@ -390,7 +391,7 @@ nav ul li a,
         padding: 10px;
     }
     .search-bar {
-        margin-bottom:30px;
+        margin-bottom:10px;
     }
     #search {
         width: 87%;
@@ -401,8 +402,10 @@ nav ul li a,
     .box-item2 {
         width: 100%;
     }
-    .
-	, .bottom-box {
+    .task-boxes {
+        margin-top: 50px;
+    }
+	.bottom-box {
         height: 52%;
     }
     .card-date {
@@ -416,15 +419,12 @@ nav ul li a,
     .circle-text ul {
         margin: 80px 40px;
     }
-    .grid-container {
-        overflow-x: hidden;
-    }
     .percent {
         width: 92%;
     }
     .card-date {
-        gap: 13px;
-        padding: 0 7px;
+        gap: 45px;
+        padding: 0 20px;
     }
     .box {
         margin: 5px 10px;
@@ -432,4 +432,7 @@ nav ul li a,
     .box ul li {
     font-size: 13px;
 	}
+    .nav-bar {
+        display: none;
+    }
 }
