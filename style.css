@@ -8,7 +8,7 @@
 .grid-container {
   display: grid;
   min-height: 100vh;
-  grid-template-rows: 5.5% auto auto;
+  grid-template-rows: 4.9% auto auto;
   grid-template-columns: 20% 50% 30%;
   grid-template-areas: "nav search search"
                        "nav box1 box2"
@@ -20,7 +20,7 @@ li {
     list-style: none;
 }
 .li-last-child {
-    margin: 2em 0 0 0;
+    margin: 4em 0 0 0;
 }
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -129,6 +129,7 @@ nav ul li a,
      outline-width: 0;
  }
 .box-item1 {
+    padding: 5px;
     grid-area: box1;
     margin: 19px;
     box-shadow: 1px 9px 20px 0px rgb(0 0 0 / 25%);
@@ -231,7 +232,7 @@ nav ul li a,
     box-shadow: 1px 9px 20px 0px rgb(0 0 0 / 25%);
     margin-bottom: 17px;
     border-radius: 4px;
-    min-height: 47.7%;
+    min-height: 48.2%;
 }
 
 .dboard {
@@ -266,7 +267,7 @@ nav ul li a,
     opacity: 0.5;
 } 
 .task-boxes {
-    margin-top: 25px;
+    margin-top: 100px;
 }
 .task-boxes .box ul li
 .task-span {
@@ -284,20 +285,24 @@ nav ul li a,
     display: block;
 }
 .box {
-    height: 125px;
+    /* height: 125px; */
     width: 95%;
-    margin: 5px 15px;
+    margin: 25px 15px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     padding: 10px;
     box-shadow: 11px 9px 20px 0px rgb(0 0 0 / 8%);
 }
+.box:hover {
+    box-shadow: 11px 9px 20px 0px rgb(0 0 0 / 28%);
+}
+}
 .img-profile-sm{
     border-radius: 50%;
 }
 .box ul {
-    padding-left: 0px;
+    padding: 8px;
 }
 .white-bx {
     background-color: white;
@@ -330,7 +335,7 @@ nav ul li a,
 .circle-deals .circle
 {
 	position: absolute;
-	top: 11px;
+	top: 57px;
 	left: 0;
     width: 8px;
 	height: 8px;
@@ -338,7 +343,7 @@ nav ul li a,
 	border-radius: 50%;
 }
 .circle-deals .circle-text {
-    margin: 4px 15px; 
+    margin: 50px 15px; 
     font-size: 11px;
     opacity: 0.5;
 }
@@ -347,11 +352,13 @@ nav ul li a,
     line-height: 23px;
 }
 .top-graph img {
-    height: 50%;
+    margin-top: 55px;
+    /* height: 50%; */
     width: 100%;
     padding: 0 30px;
 }
 .circle-chart {
+    margin-top: 55px;
     display: flex;
 	align-items: center;
     justify-content: space-evenly;
